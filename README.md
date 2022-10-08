@@ -44,3 +44,7 @@
 ## Ubuntu用docker deamon起動方法
 
 ```sudo service docker start```
+
+## build
+
+DockerfileからDockerイメージを作成することをbuildという
