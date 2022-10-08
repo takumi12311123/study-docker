@@ -40,3 +40,7 @@
 ## 動作確認用image
 
 ```docker run hello-image```
+
+## Ubuntu用docker deamon起動方法
+
+```sudo service docker start```
