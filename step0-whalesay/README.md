@@ -4,7 +4,7 @@
 
 `docker run docker/whalesay cowsay Hello!`
 
-### output
+### output (めっちゃクジラかわいい)
 
 ```
 < Hello! >
