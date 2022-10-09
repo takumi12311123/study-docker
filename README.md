@@ -1,8 +1,8 @@
 # study-docker
- 
+
 ### このフォルダ内の説明
 
-1. ROOT直下README dockerの用語説明
+1. ROOT 直下 README docker の用語説明
 
 ## docker とはなにか
 
@@ -39,24 +39,24 @@
 
 ## docker image
 
-* コンテナを実行に必要なファイルをまとめたファイルシステム
+- コンテナを実行に必要なファイルをまとめたファイルシステム
 
-## 動作確認用image
+## 動作確認用 image
 
-```docker run hello-image```
+`docker run hello-image`
 
-### docker hubからimageをpullするとき、何も指定しないと、自動的に:latestをpullしている
+### docker hub から image を pull するとき、何も指定しないと、自動的に:latest を pull している
 
-```docker run hello-image:latest```
+`docker run hello-image:latest`
 
-### docker hello-imageのlinux版
+### docker hello-image の linux 版
 
-```docker run hello-image:linux```
+`docker run hello-image:linux`
 
-## Ubuntu用docker deamon起動方法
+## Ubuntu 用 docker deamon 起動方法
 
-```sudo service docker start```
+`sudo service docker start`
 
 ## build
 
-DockerfileからDockerイメージを作成することをbuildという
+Dockerfile から Docker イメージを作成することを build という
