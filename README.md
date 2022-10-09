@@ -41,6 +41,14 @@
 
 ```docker run hello-image```
 
+### docker hubからimageをpullするとき、何も指定しないと、自動的に:latestをpullしている
+
+```docker run hello-image:latest```
+
+### docker hello-imageのlinux版
+
+```docker run hello-image:linux```
+
 ## Ubuntu用docker deamon起動方法
 
 ```sudo service docker start```
