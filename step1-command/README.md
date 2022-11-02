@@ -12,5 +12,5 @@ docker/whalesay          latest          6b362a9f73eb   7 years ago     247MB
 ```
 ### imageにタグ付けするコマンド
 
-```docker tag docker/whalesay my whalesay```
+```docker tag docker/whalesay my_whalesay```
 
