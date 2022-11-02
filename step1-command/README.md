@@ -14,6 +14,8 @@ docker/whalesay          latest          6b362a9f73eb   7 years ago     247MB
 
 ```docker tag docker/whalesay my_whalesay```
 
+docker/whalesayをmy_whalesayに変更するコマンド
+
 output
 
 ```
