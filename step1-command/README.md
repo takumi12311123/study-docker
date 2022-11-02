@@ -1,7 +1,9 @@
 ## docker command 一覧
 
 ### localに存在するimageをすべて表示
-```docker images```
+```
+docker images
+```
 
 output
 ```
@@ -12,7 +14,9 @@ docker/whalesay          latest          6b362a9f73eb   7 years ago     247MB
 ```
 ### imageにタグ付けするコマンド
 
-```docker tag docker/whalesay my_whalesay```
+```
+docker tag docker/whalesay my_whalesay
+```
 
 docker/whalesayをmy_whalesayに変更するコマンド
 
@@ -26,10 +30,13 @@ my_whalesay              latest          6b362a9f73eb   7 years ago     247MB
 ```
 
 ### imageの詳細情報が表示されるコマンド
+
+```
+docker inspect my_whalesay
+```
+
 ながい、、、
 cmdが実行されるコマンド、envが環境だから、そこだけとりあえず、、？
-
-```docker inspect my_whalesay```
 
 output
 ```
