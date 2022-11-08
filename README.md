@@ -1,4 +1,10 @@
 # study-docker  
+
+dockerの学習内容をoutput
+
+### 開発環境
+
+Ubuntu 20.04
   
 ### このフォルダ内の説明  
 
