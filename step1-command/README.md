@@ -2,13 +2,13 @@
 
 ### local に存在する image をすべて表示
 
-```md
+```cmd
 docker images
 ```
 
 output
 
-```md
+```string
 REPOSITORY TAG IMAGE ID CREATED SIZE
 golang latest 8827cedaa309 3 weeks ago 992MB
 foobar/hello 1.0 c66e6a41a21d 7 weeks ago 920MB
@@ -17,7 +17,7 @@ docker/whalesay latest 6b362a9f73eb 7 years ago 247MB
 
 ### image にタグ付けするコマンド
 
-```md
+```cmd
 docker tag docker/whalesay my_whalesay
 ```
 
@@ -25,7 +25,7 @@ docker/whalesay を my_whalesay に変更するコマンド
 
 output
 
-```md
+```string
 REPOSITORY TAG IMAGE ID CREATED SIZE
 golang latest 8827cedaa309 3 weeks ago 992MB
 foobar/hello 1.0 c66e6a41a21d 7 weeks ago 920MB
@@ -34,7 +34,7 @@ my_whalesay latest 6b362a9f73eb 7 years ago 247MB
 
 ### image の詳細情報が表示されるコマンド
 
-```
+```cmd
 docker inspect my_whalesay
 ```
 
