@@ -1,6 +1,6 @@
-## docker command 一覧
+# docker command 一覧
 
-### local に存在する image をすべて表示
+## local に存在する image をすべて表示
 
 ```cmd
 docker images
