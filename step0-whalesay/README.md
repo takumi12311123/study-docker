@@ -25,3 +25,6 @@
 ### local にないと、pull しにいってくれる
 
 ### なにも指定しないと、`latest`が自動的に pull されるようになっている
+
+for test
+for test pr vim
