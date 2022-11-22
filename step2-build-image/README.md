@@ -15,4 +15,17 @@ Dockerでビルドを行った場合、Dockerfileに定義された内容を上�
 docker build -t docker-whale .
 ```
 
+Root直下のdockerfileに基づいて、imageが作成される
+
+```cmd
+docker run docker-whale
+```
+
+output
+
+<img width="283" alt="image" src="https://user-images.githubusercontent.com/103009749/203227504-53b3fa76-07e5-47de-84de-690e360c5657.png">
+<img width="264" alt="image" src="https://user-images.githubusercontent.com/103009749/203227531-068da1e4-7e1f-410d-aff2-07785efcd6ee.png">
+
+fortuneで英語の格言が1つ生成されて、docker-whalesayに渡されて、クジラが話してくれる
+
 
