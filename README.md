@@ -6,7 +6,7 @@ dockerの学習内容をoutput
 
 Ubuntu 20.04
   
-### このフォルダ内の説明  
+### このフォルダ内の説明   
 
 1. ROOT 直下 README docker の用語説明
 
