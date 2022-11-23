@@ -1,5 +1,8 @@
 # docke hubへのlogin
 
+`docker hub`にpushするために、commandからログインを進めていきます.
+
+
 ```cmd
 sudo docker login
 ```
