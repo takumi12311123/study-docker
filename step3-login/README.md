@@ -62,3 +62,27 @@ sudo docker push takumi12311123/docker-whale:ver1
 を実行したらpush完了できた！！！！
 
 Ubuntuの権限で、`sudo`つける必要があったんですね
+
+折角push したので、pullしてみましょう
+
+一度、imageを削除します
+
+```cmd
+docker rmi -f <imageId>
+```
+
+```cmd
+docker images
+```
+
+localにないことが確認出来たら
+
+```cmd
+docker pull takumi12311123/docker-whale:ver1
+```
+
+```output
+Status: Downloaded newer image for takumi12311123/docker-whale:ver1
+```
+
+できましたね
