@@ -1,7 +1,6 @@
-# docke hubへのlogin
+# docke hub への login
 
-`docker hub`にpushするために、commandからログインを進めていきます.
-
+`docker hub`に push するために、command からログインを進めていきます.
 
 ```cmd
 sudo docker login
@@ -11,7 +10,7 @@ sudo docker login
 
 同じ環境の際は、つけることをお勧めします
 
-docker hubにloginが成功すると
+docker hub に login が成功すると
 
 ```output
 login sucseeded
@@ -19,7 +18,7 @@ login sucseeded
 
 と表示されます.
 
-## docker hubにimageをpush する
+## docker hub に image を push する
 
 ### タグ付けのルール
 
@@ -33,7 +32,7 @@ docker tag docker-whale takumi12311123/docker-whale:ver1
 
 で、タグ付けが完了する
 
-次は、pushしていく
+次は、push していく
 
 ```cmd
 docker push takumi12311123/docker-whale:ver1
@@ -45,7 +44,7 @@ docker push takumi12311123/docker-whale:ver1
 denied: requested access to the resource is denied
 ```
 
-errorが出てきた
+error が出てきた
 
 アクセスが拒否られているので、調べてみると、
 
@@ -59,13 +58,13 @@ errorが出てきた
 sudo docker push takumi12311123/docker-whale:ver1
 ```
 
-を実行したらpush完了できた！！！！
+を実行したら push 完了できた！！！！
 
-Ubuntuの権限で、`sudo`つける必要があったんですね
+Ubuntu の権限で、`sudo`つける必要があったんですね
 
-折角push したので、pullしてみましょう
+折角 push したので、pull してみましょう
 
-一度、imageを削除します
+一度、image を削除します
 
 ```cmd
 docker rmi -f <imageId>
@@ -75,7 +74,7 @@ docker rmi -f <imageId>
 docker images
 ```
 
-localにないことが確認出来たら
+local にないことが確認出来たら
 
 ```cmd
 docker pull takumi12311123/docker-whale:ver1

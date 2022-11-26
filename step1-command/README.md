@@ -138,13 +138,13 @@ output
 ]
 ```
 
-### docker imageを削除する方法
+### docker image を削除する方法
 
 ```cmd
 docker rmi docker/whalesay
 ```
 
-### docker pullの仕方
+### docker pull の仕方
 
 ```cmd
 docker pull docker/whalesay
