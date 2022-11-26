@@ -14,7 +14,25 @@ sudo docker login
 docker hubにloginが成功すると
 
 ```output
-login sucseed
+login sucseeded
 ```
 
 と表示されます.
+
+## docker hubにimageをpush する
+
+### タグ付けのルール
+
+```cmd
+<Docker ID>/<image名>:<タグ名>
+```
+
+```cmd
+docker tag docker-whale takumi12311123/docker-whale:ver1
+```
+
+### push 仕方
+
+```how-to-push
+docker push takumi12311123/docker-whale:ver1
+```
