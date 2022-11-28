@@ -14,3 +14,7 @@ docker run --name test-nginx -d -p 8080:80 nginx
 `http://localhost:8080/`にアクセス！！
 
 すると、、？
+
+![image](https://user-images.githubusercontent.com/103009749/204221509-e925bc0d-48f6-4cec-bb8d-95720c245da1.png)
+
+アクセスできた！！
