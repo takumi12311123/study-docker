@@ -10,3 +10,7 @@ docker run --name <container name> -d -p <ホスト側のポート番号>:<コ�
 ```cmd
 docker run --name test-nginx -d -p 8080:80 nginx
 ```
+
+`http://localhost:8080/`にアクセス！！
+
+すると、、？
