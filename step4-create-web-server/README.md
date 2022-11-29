@@ -15,8 +15,6 @@ docker run --name test-nginx -d -p 8080:80 nginx
 
 すると、、？
 
-![image](https://user-images.githubusercontent.com/103009749/204221509-e925bc0d-48f6-4cec-bb8d-95720c245da1.png)
-
 アクセスできた！！
 
 ## 止め方
@@ -37,4 +35,4 @@ docker rm test-nginx
 docker run --name <コンテナ名> -d -v <ホスト側のディレクトリ>:<コンテナ側のマウントポイント>:<オプション> -p <ホスト側のポート番号>:<コンテナ側のポート番号> <イメージ名>
 ```
 
-vim を使った練習commit 
+vim を使った練習 commit
