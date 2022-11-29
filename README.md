@@ -66,3 +66,5 @@ Ubuntu 20.04
 ## build
 
 Dockerfile から Docker イメージを作成することを build という
+
+check alias
