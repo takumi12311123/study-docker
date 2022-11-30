@@ -1,6 +1,6 @@
 # study-docker  
 
-dockerの学習内容をoutput
+dockerの学習内容をoutput 
 
 ### 開発環境
 
