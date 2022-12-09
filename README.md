@@ -67,4 +67,4 @@ Ubuntu 20.04
 
 Dockerfile から Docker イメージを作成することを build という
 
-
+ 
