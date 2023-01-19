@@ -8,7 +8,7 @@ Ubuntu 20.04
   
 ### このフォルダ内の説明   
 
-1. ROOT 直下 README docker の用語説明
+1. ROOT 直下 README docker の用語説明 
 
 ## docker とはなにか
 
